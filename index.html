@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> 
+</head>
+<body>
+  <div class="calculator">
+    <div class="display" id="display">0</div>
+    <div class="buttons">
+      <button class="button" onclick="Todisplay('7')" id="btn-7">7</button>
+      <button class="button" onclick="Todisplay('8')" id="btn-8">8</button>
+      <button class="button" onclick="Todisplay('9')" id="btn-9">9</button>
+      <button class="button operator" onclick="Todisplay('+')" id="btn-plus">+</button>
+
+      <button class="button" onclick="Todisplay('4')" id="btn-4">4</button>
+      <button class="button" onclick="Todisplay('5')" id="btn-5">5</button>
+      <button class="button" onclick="Todisplay('6')" id="btn-6">6</button>
+      <button class="button operator" onclick="Todisplay('-')" id="btn-minus">-</button>
+
+      <button class="button" onclick="Todisplay('1')" id="btn-1">1</button>
+      <button class="button" onclick="Todisplay('2')" id="btn-2">2</button>
+      <button class="button" onclick="Todisplay('3')" id="btn-3">3</button>
+      <button class="button operator" onclick="Todisplay('*')" id="btn-multiply">*</button>
+
+      <button class="button" onclick="Todisplay('0')" id="btn-0">0</button>
+      <button class="button" onclick="cleardisplay()" id="btn-clear">C</button>
+      <button class="button" onclick="Todisplay('.')" id="btn-dot">.</button>
+      <button class="button operator" onclick="Todisplay('/')" id="btn-divide">/</button>
+
+      <button class="button operator" onclick="Todisplay('%')" id="btn-percent">%</button>
+      <button class="button equals" onclick="cresult()" id="btn-equals">=</button>
+    </div>
+  </div>
+</body>
+</html>
